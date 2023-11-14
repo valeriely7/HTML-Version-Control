@@ -4,3 +4,28 @@ footer {
     margin-top: 2rem;
 }
 
+h1 {
+    background-color:mistyrose;
+    color: rgb(152, 36, 36);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+header a{ 
+    background-color:rgb(220, 244, 252);
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+}
+
+header a:hover{ 
+    background-color: teal;
+}
+.header{
+    
+}
