@@ -1,12 +1,13 @@
 /*styles.css*/
 
-footer {
-    margin-top: 2rem;
-}
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
+/* header stuff*/
 h1 {
     background-color:mistyrose;
-    color: rgb(152, 36, 36);
+    font-family: 'Damion', cursive;
+    color: rgb(188, 48, 48);
 }
 
 header ul {
@@ -26,6 +27,37 @@ header a{
 header a:hover{ 
     background-color: teal;
 }
-.header{
+
+/* about me section */
+section#about{
     
 }
+
+.gradient{
+    background: rgb(255,222,222);
+background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 100%);
+
+}
+
+.flowers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.whiteflowers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+footer {
+    margin-top: 2rem;
+}
+
+
+
