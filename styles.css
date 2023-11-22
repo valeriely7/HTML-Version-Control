@@ -1,9 +1,14 @@
 /*styles.css*/
 
 /* font styles */
+    /* Damion */
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+    /* FigTree */
+ @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
 
-/* header stuff*/
+
+
+/* ----->Top Header<-------*/
 h1 {
     background-color:mistyrose;
     font-family: 'Damion', cursive;
@@ -15,6 +20,7 @@ header ul {
     justify-content: center;
     list-style: none;
     padding-left: 0;
+    font-family: 'Figtree', sans-serif
 }
 
 header a{ 
@@ -28,9 +34,14 @@ header a:hover{
     background-color: teal;
 }
 
-/* about me section */
+/* ------>Main Section<--------- */
 section#about{
-    
+
+}
+
+/* About Me */
+main{
+    font-family: 'Figtree', sans-serif;
 }
 
 .gradient{
@@ -44,6 +55,8 @@ background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 10
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
+    border-radius: 5%;
 }
 
 .whiteflowers{
@@ -54,10 +67,62 @@ background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 10
 }
 
 
+/* Hobbies */
+
+hr {
+        border: none;
+        background-color: #FFC0CB;
+        color: #FFC0CB;
+        height: 3px
+}
+
+
+th {
+    background-color: #ffc6c6;
+    color: white;
+  }
+
+  tr {
+    background-color: rgb(213, 242, 255);
+    
+  }
+
+  tr td{
+    padding: 10px 30px;
+  }
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*links */
+a {
+    color: #E9967A
+}
+
+a:hover {
+    color: #C71585
+  }
+
+   
+
+
 
 footer {
     margin-top: 2rem;
 }
 
 
+
+
+
+/* extra code for learning don't worry aboout it
+table, th, td {
+    border:1px solid blueviolet;
+}
+*/
 
