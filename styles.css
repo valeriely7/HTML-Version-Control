@@ -35,9 +35,6 @@ header a:hover{
 }
 
 /* ------>Main Section<--------- */
-section#about{
-
-}
 
 /* About Me */
 main{
@@ -55,15 +52,27 @@ background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 10
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-
     border-radius: 5%;
 }
 
-.whiteflowers{
+.figflowers{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+
+    border: 2px solid #008080;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5%;
+    padding:2px
+
+}
+
+figcaption{
+    border: 2px solid #008080;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 5px;
 }
 
 
@@ -91,7 +100,7 @@ th {
     padding: 10px 30px;
   }
 
-table {
+.musictable {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +108,7 @@ table {
 }
 
 
-/*links */
+/* Music Links */
 a {
     color: #E9967A
 }
@@ -108,7 +117,19 @@ a:hover {
     color: #C71585
   }
 
-   
+  /* Goals */
+
+.cat {
+    border-radius: 20%;
+}
+
+.figcat {
+    border: 2px solid #008080;
+    width: 160px;
+    margin-top: 5px;
+    border-radius: 0%;
+    padding: 2px;
+}
 
 
 
