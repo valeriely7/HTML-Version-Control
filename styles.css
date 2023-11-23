@@ -43,7 +43,7 @@ main{
 
 .gradient{
     background: rgb(255,222,222);
-background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 100%);
 
 }
 
@@ -68,23 +68,7 @@ background: linear-gradient(0deg, rgba(255,222,222,1) 0%, rgba(216,245,255,1) 10
 
 }
 
-figcaption{
-    border: 2px solid #008080;
-    width: 100px;
-    border-radius: 10%;
-    margin-top: 5px;
-}
-
-
 /* Hobbies */
-
-hr {
-        border: none;
-        background-color: #FFC0CB;
-        color: #FFC0CB;
-        height: 3px
-}
-
 
 th {
     background-color: #ffc6c6;
@@ -117,7 +101,7 @@ a:hover {
     color: #C71585
   }
 
-  /* Goals */
+/* Goals */
 
 .cat {
     border-radius: 20%;
@@ -127,12 +111,22 @@ a:hover {
     border: 2px solid #008080;
     width: 160px;
     margin-top: 5px;
+    margin-left: 1em;
     border-radius: 0%;
     padding: 2px;
 }
 
 
+/* Line Break hr */
+hr {
+    border: none;
+    background-color: #FFC0CB;
+    color: #FFC0CB;
+    height: 3px
+}
 
+
+/* Footer */
 footer {
     margin-top: 2rem;
 }
