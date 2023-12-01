@@ -1,3 +1,6 @@
+let greetings = 'Hello World'
+  console.log(greetings)
+
 //Footer Year 
 const Z = new Date();
 let year = Z.getFullYear();
@@ -29,4 +32,35 @@ element.onmouseleave = () => {
     element.innerText = "Click Me!";
 };
 
+// Incrementing Button 
+let count = 0;
+const textCounter = document.getElementById("Up");
+const incremtor = document.getElementById("Counter")
+textCounter.addEventListener("click", () => {
+    count++;
+    incremtor.textContent = count.toString()
+    if (count % 2 ==0) {
+        incremtor.classList.add("Even");
+        incremtor.classList.remove("Odd");
+    }else{
+        incrementor.classList.add("Odd")
+        incrementor.classList.remove("Even");
+    }
+});
+
+//Loop
+const numberList = document.getElementById("numbers");
+
+for(let index = 1; index <= 100; index++) {
+    const newListItem = document.createElement("li");
+    
+    const even = index % 2 == 0; 
+
+    newListItem.innerHTML = even ? "Even": "Odd";
+
+    numberList.appendChild(newListItem);
+    
+    if(even) newListItem.classList.add("even");
+    else newListItem.classList.add("odd");
+};
 
