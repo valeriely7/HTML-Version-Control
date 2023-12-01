@@ -34,14 +34,14 @@ element.onmouseleave = () => {
 
 // Incrementing Button 
 let count = 0;
-const textCounter = document.getElementById("Up");
-const incremtor = document.getElementById("Counter")
+let textCounter = document.getElementById("Up");
+let incrementor = document.getElementById("Counter")
 textCounter.addEventListener("click", () => {
     count++;
-    incremtor.textContent = count.toString()
+    incrementor.textContent = count.toString()
     if (count % 2 ==0) {
-        incremtor.classList.add("Even");
-        incremtor.classList.remove("Odd");
+        incrementor.classList.add("Even");
+        incrementor.classList.remove("Odd");
     }else{
         incrementor.classList.add("Odd")
         incrementor.classList.remove("Even");
