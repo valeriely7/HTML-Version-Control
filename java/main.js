@@ -22,7 +22,6 @@ const Hover = document.getElementById("btn-alert");
     }})
 
 const element = document.getElementById("btn-alert");
-console.log(element.outerHTML);
 
 element.onmouseover = () => {
     element.innerText = "Have a nice day :)";
