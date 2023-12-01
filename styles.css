@@ -126,6 +126,29 @@ hr {
 }
 
 
+.Even{
+    color: pink
+
+}
+.Odd{
+    color: lightblue;
+}
+.even{
+    color: red;
+}
+.odd{
+    color: blue;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 /* Footer */
 footer {
     margin-top: 2rem;

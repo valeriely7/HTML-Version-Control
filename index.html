@@ -5,6 +5,8 @@
     <meta name="description" content="Val's Portfolio Assignment">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script defer src="java/main.js"></script>
+    <!--<script href="./java/main.js"></script>-->
     <title>Valerie's Portfolio</title>
 </head>
 
@@ -21,6 +23,14 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <button id="btn-alert">Hover Me</button>
+       
+        <!---Incrementing Counter ---->
+        <div class="Display_flex">
+            <p class="Even" id="Counter"></p>
+            <button id="Up">What Do I Do?</button>
+        </div> 
+    
     </header>
         <main> 
             <section class="gradient" id="about">
@@ -118,10 +128,15 @@
                         </tr>
                     </table>
                 </section>
+                <!--Loop-->
+                <div class="cont">
+                    <h2>Loops</h2>
+                    <ol id="numbers"></ol>
+                </div>
             </main>
             <footer>
                 <hr />
-                Valerie Ly 2023 &copy;
+                Valerie Ly <p id="year"></p> &copy;
             </footer>
         </body>
         </html>
