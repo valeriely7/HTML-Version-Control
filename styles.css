@@ -4,7 +4,7 @@
     /* Damion */
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
     /* FigTree */
- @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
 
 
 
@@ -125,7 +125,7 @@ hr {
     height: 3px
 }
 
-
+/* Increment Button */
 .Even{
     color: pink
 
@@ -133,6 +133,8 @@ hr {
 .Odd{
     color: lightblue;
 }
+
+/* Loop */
 .even{
     color: red;
 }
@@ -146,8 +148,6 @@ hr {
     align-items: center;
     flex-direction: column;
 }
-
-
 
 /* Footer */
 footer {
